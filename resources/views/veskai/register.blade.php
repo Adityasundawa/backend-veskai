@@ -24,7 +24,7 @@
                         </div>
                         <div class="account-check-group">
                             <input type="checkbox" name="terms" id="agree" required>
-                            <label for="agree">I agree to the <a href="terms.html">Terms & Service</a></label>
+                            <label for="agree">I agree to the <a href="{{url("/terms")}}">Terms & Service</a></label>
                         </div>
                         <div class="account-form-group">
                             <button class="custom-button" type="submit">create account</button>
