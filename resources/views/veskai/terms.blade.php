@@ -123,13 +123,13 @@
                                             <a href="#">Referral Fee</a>
                                         </li>
                                     </ul>
-                                </li> -->
+                                </li>
                             </ul>
                         </div>
                         <div class="widget widget-banner">
                             <h5 class="title">Have any question ?</h5>
                             <span>Email Us</span>
-                            <a href="Mailto:admin@veskai.com">admin@veskai.com</a>
+                            <a href="Mailto:staff@veskai.com">staff@veskai.com</a>
                         </div>
                     </aside>
                 </div>

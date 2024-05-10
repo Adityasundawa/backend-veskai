@@ -88,9 +88,9 @@
                     <li>
                         <a data-toggle="tab" href="#discordveskai">Discord Veskai</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a data-toggle="tab" href="#survania">Survania</a>
-                    </li>
+                    </li>-->
                 </ul>
                 <div class="tab-content mb--20">
                     <div class="tab-pane show active " id="veskai">
@@ -130,7 +130,7 @@
                                 <div class="faq-wrapper">
                                     <div class="faq-item">
                                         <div class="faq-title">
-                                            <h6 class="title">game server veskai</h6>
+                                            <h6 class="title"><del>game server veskai</del></h6>
                                             <span class="right-icon"></span>
                                         </div>
                                         <div class="faq-content">
