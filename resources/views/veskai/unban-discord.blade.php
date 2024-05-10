@@ -6,11 +6,14 @@
     <div class="form-container">
         <form action="{{route('submit.unban.discord')}}" method="POST" class="unban-form">
             @csrf
-            <label for="username" class="form-label">Discord Username/Tag:</label>
+            <label for="username" class="form-label">Discord Username:</label>
             <input type="text" id="username" name="username" class="form-input" required>
             <br>
-            <label for="reason" class="form-label">Motivation for Unbanned:</label>
-            <textarea id="reason" name="reason" rows="4" class="form-textarea" required></textarea>
+            <label for="reason" class="form-label">Reason</label>
+            <input type="text" id="reason" name="reason" class="form-input" required>
+            <br>
+            <label for="motivation" class="form-label">Motivation for Unbanned:</label>
+            <textarea id="motivation" name="motivation" rows="4" class="form-textarea" required></textarea>
             <br>
             <button type="submit" name="submit" class="form-button">Submit</button>
         </form>
