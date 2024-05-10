@@ -16,7 +16,7 @@
 
 
 <!-- ========Feature Section Starts Here======== -->
-<div class="feature-section padding-bottom padding-top">
+<!-- <div class="feature-section padding-bottom padding-top">
     <div class="container">
         <div class="m--15">
             <div class="feature-slider">
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="feature-content banner-content">
                                     <h4 class="title">Firestrike Alpha</h4>
-                                    <p>an Online FPS Web Games that currently under constraction by Veskai Production</p>
+                                    <p>an Online FPS Web Games that currently under development by Veskai Production</p>
                                     <a href="#" class="custom-button theme">Soon</a>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- ========Feature Section Ends Here======== -->
 
 
@@ -322,8 +322,8 @@
             <div class="col-lg-6 col-md-7 col-xl-5">
                 <div class="membership_text">
                     <h2 style="padding-bottom: 30px;">Veskai Membership</h2>
-                    <p>Dana dari kalian 100% untuk perkembangan Veskai Production, mulai penambahan menu, event, dan lainnya. </p>
-                    <p>Untuk saat ini Veskai Production sedang berfokus pada pelebaran sayap kekomunitas gaming indonesia dengan membuka dan mengelola server game multiplayer. </p>
+                    <p>Dana dari kalian 100% untuk perkembangan Veskai Production, pembayaran hosting, event, dan lainnya. </p>
+                    <p>Untuk saat ini Veskai Production sedang berfokus pada pelebaran sayap komunitas gaming indonesia dengan membuka dan mengelola server game multiplayer. </p>
                     <p>Tentu saja kita tidak akan terhenti sampai sini saja, kita akan selalu berusaha melebarkan sayap kekomunitas lainnya. </p>
                     <a href="https://trakteer.id/veskai" class="custom-button mt-20">Trakteer</a>
                     <a href="https://paypal.me/mxxpe" class="custom-button mt-20" style="margin-left: 20px; ">Paypal</a>
@@ -333,7 +333,7 @@
                 <div class="trakteer">
                     <div class="section-header">
                         <div class="embed-responsive embed-responsive-1by1">
-                            <iframe class="embed-responsive-item" src="https://stream.trakteer.id/top-supporter-retro.html?ts_count=10&ts_theme=retro&ts_1_clr6=rgba%2863%2C+81%2C+181%2C+1%29&ts_2_clr5=rgba%280%2C+0%2C+0%2C+1%29&ts_interval=90&ts_customtitle=VIP+War+Season+8&ts_customsubtitle=Top+Membership&key=trstream-Bq3hRdeWJjs9duc3pJio" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                            <iframe class="embed-responsive-item" src="https://stream.trakteer.id/top-supporter-retro.html?ts_font=Exo+2&ts_count=10&ts_theme=retro&ts_1_clr6=rgba%2863%2C+81%2C+181%2C+1%29&ts_2_clr1=rgba%28255%2C+255%2C+255%2C+1%29&ts_2_clr2=rgba%28255%2C+0%2C+174%2C+1%29&ts_2_clr3=rgba%28255%2C+0%2C+210%2C+1%29&ts_2_clr5=rgba%280%2C+0%2C+0%2C+1%29&ts_interval=90&ts_customtitle=VIP+War+Season+9&ts_customsubtitle=Top+Membership&key=trstream-Bq3hRdeWJjs9duc3pJio" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                         </div>
                     </div>
                 </div>
@@ -408,12 +408,12 @@
             <div class="col-sm-10 col-md-6 col-lg-4">
                 <div class="winner-item">
                     <div class="winner-thumb">
-                        <img src="https://cdn.discordapp.com/attachments/810658900134723606/1174675994515345468/9ed4372c8eb5250acb31b008b3ffbf6d.png" alt="winner">
+                        <img src="https://cdn.discordapp.com/avatars/1131538653533974568/7de0a5c5fd77eb7d68c8cb80423afa30.png" alt="winner">
                     </div>
                     <div class="winner-content">
-                        <h6 class="title">vincentwylcotes</h6>
-                        <span class="info">VIP &#128142; 7</span>
-                        <span class="bet-id">VIP War Season 7 Winner</span>
+                        <h6 class="title">xoixch</h6>
+                        <span class="info">VIP &#128142; 35</span>
+                        <span class="bet-id">VIP War Season 8 Winner</span>
                     </div>
                 </div>
             </div>
