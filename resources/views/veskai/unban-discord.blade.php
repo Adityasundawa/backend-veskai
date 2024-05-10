@@ -9,7 +9,7 @@
             <label for="username" class="form-label">Discord Username:</label>
             <input type="text" id="username" name="username" class="form-input" required>
             <br>
-            <label for="reason" class="form-label">Reason</label>
+            <label for="reason" class="form-label">Reason:</label>
             <input type="text" id="reason" name="reason" class="form-input" required>
             <br>
             <label for="motivation" class="form-label">Motivation for Unbanned:</label>
@@ -23,7 +23,7 @@
     <!-- ========Game Details Section Ends Here======== -->
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <!-- <script src="assets/js/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
@@ -33,7 +33,7 @@
     <script src="assets/js/odometer.min.js"></script>
     <script src="assets/js/viewport.jquery.js"></script>
     <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script> -->
 </body>
 
 </html>

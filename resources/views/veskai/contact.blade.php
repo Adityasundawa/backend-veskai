@@ -31,7 +31,7 @@
                             <h2 class="title">get in touch</h2>
                             <p>kirim email kepada kami jika ada keperluan, kritik, saran, dan atau keluh kesah mengenai <b>Veskai Production</b>.</p>
                         </div>
-                        <form class="contact-form" id="contact_form_submit" action="{{ url('/send-mail') }}" method="POST">
+                        <form class="contact-form" id="contact_form_submit" action="{{route('submit.contact')}}" method="POST">
                             @csrf
                             <div class="comment-form-group w-100">
                                 <input type="text" placeholder="Name" id="name" name="name">
@@ -45,6 +45,7 @@
                             <div class="comment-form-group w-100 mb-0">
                                 <button type="submit" class="custom-button">Send Now</button>
                             </div>
+                            </form>
                         </form>
                     </div>
                 </div>

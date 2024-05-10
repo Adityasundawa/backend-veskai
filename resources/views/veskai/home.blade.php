@@ -8,7 +8,7 @@
             <p>Tempat kalian mencari teman baru
                 <br>Temukan teman kamu di Veskai Community</br>
             </p>
-            <a href="https:discord.gg/XYqyZpg" class="custom-button theme">Join</a>
+            <a href="https://discord.gg/XYqyZpg" class="custom-button theme">Join</a>
         </div>
     </div>
 </section>
