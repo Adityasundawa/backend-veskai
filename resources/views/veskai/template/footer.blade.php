@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>Copyright &copy; 2023. All rights reserved by <a href="">Veskai Production</a></p>
+        <p>Copyright &copy; 2024. All rights reserved by <a href="#">Veskai Production</a></p>
     </div>
 </footer>
 <!-- ========Footer Section Ends Here======== -->
