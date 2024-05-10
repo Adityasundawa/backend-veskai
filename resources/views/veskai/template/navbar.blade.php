@@ -25,27 +25,34 @@
                         <a href="{{url("/home")}}">Home</a>
                     </li>
                     <li>
+                        <a href="#">Discord</a>
+                        <ul class="submenu">
+                            <li>
+                                    <li>
+                                        <a href="#">Membership</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="https://trakteer.com/veskai">Trakteer</a>
+                                            </li> 
+                                            <li>
+                                                <a href="https://paypal.me/mxxpe">Paypal</a>
+                                            </li> 
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="{{url("/unban-discord")}}">Unban Request</a>
+                                    </li>
+                            </li>
+                        </ul>
+                    </li>                    
+                    <!--<li>
                         <a href="#">Games</a>
                         <ul class="submenu">
                             <li>
                                 <a href="{{url("/survania")}}">Survania Minecraft</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="#">Community</a>
-                            <ul class="submenu">
-                                <li>
-                                    <a href="https://discord.gg/XYqyZpg">Veskai Server</a>
-                                </li>
-                                <li>
-                                    <a href="https://discord.gg/4qbmhC3deZ">Survania Server</a>
-                                </li>
-                                <li>
-                                    <a href="https://chat.whatsapp.com/KiypHNGPQqe9ZEuXROGbF8">Changer Group</a>
-                                </li>
-                            </ul>
-                    </li>
+                    </li>-->
                     <li class="d-none d-lg-block center-logo">
                         <div class="logo">
                             <a href="#">
@@ -54,26 +61,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">Membership</a>
-                        <ul class="submenu">
-                            <li>
-                                <a href="#">VIP Veskai Discord</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="https://trakteer.id/veskai">Trakteer</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://paypal.me/mxxpe">Paypal</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="https://trakteer.id/survania">VIP Survania</a>
-                            </li>
-                        </ul>
-                    </li>                    
-                    <li>
-                        <a href="#">Links</a>
+                        <a href="#">Partners</a>
                             <ul class="submenu">
                                 <li>
                                     <a href="{{url("/changer")}}">Changer - Bot</a>
@@ -105,25 +93,6 @@
                             </li>
                             <li>
                                 <a href="#"><del>Media</del> Soon</a>
-                            </li>
-                            <li>
-                                <a href="#">Shop</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="https://discord.gg/9TT7v2Ha83">Vestore - Digital Store</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Unban Appeal</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="{{url("/unban-discord")}}">Discord</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{url("/unban-survania")}}">Survania</a>
-                                    </li>
-                                </ul>
                             </li>
                             <li>
                                 <a href="{{url("/contact")}}">Contact</a>
