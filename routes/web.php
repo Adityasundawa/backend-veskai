@@ -36,7 +36,7 @@ Route::get('/', [DashboardController::class, 'home']);
 
 Route::get('/home', [DashboardController::class, 'home']);
 
-Route::get('/faq', [DashboardController::class, 'faq']);
+Route::get('/faq', [DashboardController::class, 'faq'])->name('faq');
 
 Route::get('/contact', [DashboardController::class, 'contact']);
 
