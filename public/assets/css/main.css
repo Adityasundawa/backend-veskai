@@ -1771,7 +1771,8 @@ header.header-two.active .logo {
 
 @media (max-width: 767px) {
     .header-wrapper .sticky-logo, .header-wrapper-2 .sticky-logo {
-        width: 110px;
+        width: 70px;
+        padding: 3%;
     }
 }
 
