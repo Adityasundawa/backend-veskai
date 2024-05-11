@@ -36,7 +36,7 @@ Route::get('/', [DashboardController::class, 'home']);
 
 Route::get('/home', [DashboardController::class, 'home']);
 
-Route::get('/faq', [DashboardController::class, 'faq'])->name('faq');
+Route::get('/faq', [DashboardController::class, 'faq']);
 
 Route::get('/contact', [DashboardController::class, 'contact']);
 
@@ -44,7 +44,7 @@ Route::get('/survania', [DashboardController::class, 'survania']);
 
 Route::get('/unban-discord', [DashboardController::class, 'unbandiscord']);
 
-Route::get('/unban-survania', [DashboardController::class, 'unbansurvania']);
+Route::get('/contact-mail', [DashboardController::class, 'contactmail']);
 
 Route::get('/registers', [DashboardController::class, 'register']);
 
@@ -60,6 +60,6 @@ Route::get('/forgotpassword', [DashboardController::class, 'forgotpassword']);
 
 Route::post('/submit-unban-discord', [ActionController::class, 'unbandiscord'])->name('submit.unban.discord');
 
-Route::post('/submit-unban-survania', [ActionController::class, 'unbansurvania'])->name('submit.unban.survania');
+Route::post('/submit-contact', [ActionController::class, 'sendcontact'])->name('submit.contact');
 
 Route::post('/send-mail', [ContactController::class, 'sendMail']);
