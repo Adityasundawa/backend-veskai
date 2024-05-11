@@ -16,7 +16,7 @@ class ActionController extends Controller
         $from = 'mxxpe789456@gmail.com'; // Ganti dengan alamat email pengirim
         $to = 'veskaiprod@gmail.com'; // Ganti dengan alamat email admin atau penerima permintaan unban
         $subject = 'Unban Request';
-        $message = "<b>Username:</b> $username\n<b>Reason:</b> $reason\n<b>Motivation:</b> $motivation";
+        $message = "**Username:** $username\n**Reason:** $reason\n**Motivation:** $motivation";
 
         // Kirim email
         $sent = mail($to, $subject, $message, "From: $from");
@@ -29,21 +29,23 @@ class ActionController extends Controller
         }
     }
 
-    public function unbansurvania(Request $request){
+    public function sendcontact(Request $request){
      
         $username = $request->input('username');
         $reason = $request->input('reason');
+        $motivation = $request->input('motivation');
 
         $from = 'mxxpe789456@gmail.com'; // Ganti dengan alamat email pengirim
         $to = 'veskaiprod@gmail.com'; // Ganti dengan alamat email admin atau penerima permintaan unban
-        $subject = 'Unban Request';
-        $message = "Username: $username\nReason: $reason";
+        $subject = 'Contact Mail';
+        $message = $message = "**Name:** $username\n**Email:** $reason\n**Message:** $motivation";
 
         // Kirim email
         $sent = mail($to, $subject, $message, "From: $from");
 
         if ($sent) {
-            return "Unban request for user $username has been submitted. We will review your request.";
+            //return "Unban request for user $username has been submitted. We will review your request.";
+            return redirect()->back();
         } else {
             return "Failed to submit unban request. Please try again later.";
         }
