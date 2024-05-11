@@ -16,8 +16,8 @@
         <div class="container">
             <div class="header-wrapper-2">
                 <div class="sticky-logo">
-                    <a href="#">
-                        <img src="assets/images/logo/vekai-logo.png" alt="logo">
+                    <a href="{{url("/home")}}">
+                        <img src="assets/images/logo/logo-hp.png" alt="logo">
                     </a>
                 </div>
                 <ul class="menu">
@@ -66,9 +66,6 @@
                                 <li>
                                     <a href="{{url("/changer")}}">Changer - Bot</a>
                                 </li>
-                                <li>
-                                    <a href="https://discord.gg/9TT7v2Ha83">VeStore - Digital Store</a>
-                                </li>
                             </ul>
                     </li>
                     <li>
@@ -101,7 +98,7 @@
                                 <a href="{{url("/faq")}}">Faqs</a>
                             </li>
                             <li>
-                                <a href="{{url("/terms")}}">Terms & Service</a>
+                                <a href="{{url("/terms")}}">Terms of Service</a>
                             </li>
 
                         </ul>
